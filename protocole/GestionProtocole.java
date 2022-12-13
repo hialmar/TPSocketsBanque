@@ -123,7 +123,7 @@ public class GestionProtocole {
 					return "POS " + somme + " " + date;
 				}
 			default:
-				// le type de requête ne correspon à rien de connu
+				// le type de requête ne correspond à rien de connu
 				return "ERREUR requête inconnue";
 			}
 		} catch (NullPointerException ex) {
